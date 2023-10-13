@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	x := rand.Intn(400)
+	x := rand.Intn(250)
 	fmt.Printf("The value of x is %v\t", x)
 
 	if x <= 100 {

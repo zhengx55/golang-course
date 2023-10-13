@@ -26,7 +26,6 @@ func main() {
 		The comma ok idiom is also like this
 	*/
 	// https://go.dev/play/p/OXGzjxVkag0
-
 	if z := 2 * rand.Intn(x); z >= x {
 		fmt.Printf("z is %v and that is GREATER THAN OR EQUAL x which is %v\n", z, x)
 	} else {

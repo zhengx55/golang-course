@@ -13,7 +13,7 @@ func main() {
 	for i := 0; i < 100; i++ {
 		x := rand.Intn(10)
 		y := rand.Intn(10)
-		fmt.Printf("iteration %v \t x and y are %v and %v\t",i, x, y)
+		fmt.Printf("iteration %v \t x and y are %v and %v\t", i, x, y)
 
 		switch {
 		case x < 4 && y < 4:
@@ -28,4 +28,5 @@ func main() {
 			fmt.Println("none of the previous were met")
 		}
 	}
+
 }

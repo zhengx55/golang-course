@@ -9,3 +9,11 @@ func main() {
 		i--
 	}
 }
+
+func test() {
+	i := 20
+	for i >= 0 {
+		fmt.Println((i))
+		i--
+	}
+}

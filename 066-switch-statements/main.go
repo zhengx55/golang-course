@@ -12,6 +12,12 @@ func main() {
 	y := 5  // this is the fourth statement to run
 	fmt.Printf(" x=%v \n y=%v\n", x, y)
 
+	/*
+		在Go语言中，fallthrough是用于switch语句中的关键字，它用于控制程序执行流程，使它穿透到下一个case分支，而不会像普通的switch语句一样在匹配的case分支结束后自动跳出switch块。
+
+		具体来说，当在一个case分支中使用fallthrough关键字时，程序将会执行当前case分支的代码块，然后继续执行下一个case分支的代码块，而不考虑下一个case分支的条件是否匹配。这在某些情况下是有用的，通常用于一种特殊的逻辑需求。
+	*/
+
 	// CONDITIONAL
 	// if statements
 	// switch statements
