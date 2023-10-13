@@ -10,6 +10,9 @@ type person struct {
 
 type foo int
 
+/*
+composition refers to a way of structing and building complex types by combining multiple simpler types
+*/
 func main() {
 	var a foo = 42
 	fmt.Println(a)
@@ -23,7 +26,6 @@ func main() {
 		first: "James",
 		last:  "Bond",
 		age:   32,
-
 	}
 
 	p2 := person{
@@ -35,7 +37,7 @@ func main() {
 	fmt.Printf("%T \n", p1)
 	fmt.Printf("%T \n", p2)
 	fmt.Printf("%#v \n", p2)
-
+	// inner type has been promoted to the outter type
 	p2 = p1
 	fmt.Printf("%T \n", p2)
 	fmt.Printf("%#v \n", p2)

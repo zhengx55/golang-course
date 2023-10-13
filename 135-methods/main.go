@@ -6,6 +6,7 @@ type person struct {
 	first string
 }
 
+// define methods for struct
 func (p person) speak() {
 	fmt.Println("I am", p.first)
 }
@@ -14,7 +15,7 @@ func main() {
 	p1 := person{
 		first: "James",
 	}
-	
+
 	p2 := person{
 		first: "Jenny",
 	}

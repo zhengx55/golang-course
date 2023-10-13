@@ -36,7 +36,10 @@ func main() {
 	// 	fmt.Println("Key didn't exist")
 	// }
 
+	// 在上面的示例中，我们首先定义了一个名为an的映射，然后使用if语句来检查键"Georgey"是否存在于映射中。如果ok为true，则表示"Georgey"存在于映射中，我们输出其年龄；否则，我们输出一条消息表示"Georgey"不存在于映射中。
+
 	if v, ok := an["Georgey"]; !ok {
+		fmt.Println(v, ok)
 		fmt.Println("Key didn't exist")
 	} else {
 		fmt.Println("the value prints", v)

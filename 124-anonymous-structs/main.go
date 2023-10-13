@@ -24,7 +24,9 @@ func main() {
 		last:  "Moneypenny",
 		age:   27,
 	}
+	p2.age = 22
 
 	fmt.Printf("%T \n", p1)
 	fmt.Printf("%T \n", p2)
+	fmt.Printf("%v \n", p2)
 }

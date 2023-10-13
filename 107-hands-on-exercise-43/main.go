@@ -12,6 +12,10 @@ func main() {
 	fmt.Printf("%T \t %#v\n", x, x)
 	fmt.Printf("%T \t %v\n", x, x)
 
+	y := []int{42, 43, 44, 45}
+	for i, v := range y {
+		fmt.Printf("%v \t %T \t %v\n", v, v, i)
+	}
 }
 
 /*

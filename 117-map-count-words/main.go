@@ -43,7 +43,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("error with maxWord: %s\n", err)
 	}
-	fmt.Printf("%#v has a frequency %d",w, n)
+	fmt.Printf("%#v has a frequency %d", w, n)
 
 }
 
@@ -120,8 +120,8 @@ func maxWord(m map[string]int) (string, int, error) {
 		return "", 0, fmt.Errorf("empty map")
 	}
 
-	maxW := ""  // word with max frequency 
-	maxF := 0	// max frequency of that word
+	maxW := "" // word with max frequency
+	maxF := 0  // max frequency of that word
 
 	for k, v := range m {
 		if v > maxF {
@@ -145,18 +145,15 @@ In summary, in the context of the `bufio` package, a token represents a meaningf
 
 */
 
-
 /*
 write code for me in the go programming language to read all of the words from a text file and count the frequency of each word in the text file
 */
 // https://chat.openai.com/share/6cb2b004-4cfa-4aad-a2d8-47b0eacd36dd
 
-
 /*
 in the go programming language, I have a map with a string and an int. How do I sort the int values from largest to smallest and see their corresponding string value?
 */
 // https://chat.openai.com/share/03a44e91-fc0d-4cdb-884a-c8acd8f440d8
-
 
 /*
 
@@ -175,5 +172,5 @@ in the go programming language, I have a map with a string and an int. How do I 
 	fmt.Println(m["beautiful"])
 	m["beautiful"]++
 	fmt.Println(m["beautiful"])
-	
+
 */

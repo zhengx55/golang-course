@@ -15,4 +15,5 @@ func main() {
 	fmt.Println("a ", a)
 	fmt.Println("b ", b)
 	fmt.Println("--------------")
+	// b[0] with change since its pointing to the memory location as a
 }
